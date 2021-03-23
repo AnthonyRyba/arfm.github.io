@@ -1,0 +1,201 @@
+/* This resets so no defaults are inherint
+*{
+	margin:0;
+	padding:0;
+	} */
+body{
+	background-color:#f4f4f4;
+	color:#555555;
+
+	font: normal 16px; Verdana, Helvetica, Sans-Serif, Tahoma;
+
+	line-height: 1.6em
+
+	margin:0;
+
+}
+/* Adds a global style to all and any links */
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: green;
+}
+
+a:active{
+	color: red;
+}
+/* links to <div class="container"> */
+.container{
+	width: 80%;
+	margin: auto;
+}
+.button{
+	background-color: #333; 
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+.button:hover{
+	background-color: red;
+	color: #fff;
+}
+
+.clr{
+	clear: both;
+}
+/* links to <div class="box-1"> */
+.box-1{
+	background-color: #333;
+	color: #fff;
+
+	border: 5px red solid;
+	/* border-bottom-width: 10px; */
+	/* border-width: 3px; */
+	padding: 20px;
+
+	margin: 20px 0;
+}
+
+.box-1 h1{
+	font-family: Tohoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
+}
+/* .box-2 h1 will place a box just on heading */
+.box-2{
+	border: 3px #ccc double ;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.box-2 h1{
+	font-family: Tohoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
+}
+
+.categories{
+	border: 2px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;	/* round box corners */
+}
+
+.categories h2{
+	text-align: center; 
+}
+
+.categories ul{
+	padding: 0; 
+	padding-left: 30px;
+	/*   list-style: asterisks;   */
+	list-style: none;
+}
+
+.categories li{
+	border-bottom: dotted 1px #333;
+	padding-bottom: 6px;
+	list-style-image: url('../images/check.png'); 	
+}
+
+.my-form{
+	padding: 20px;
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+/* Use # when grabbing an ID div */
+#main-block{
+	float: left;
+	width: 70%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color: #fff
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.p-box{
+	width: 800px;
+	height: 500px;
+	border: 1px solid #000;
+	margin-top: 30px;
+	position: relative;
+	background-image: url('../images/bg1.jfif');
+	background-repeat: no-repeat; 
+	background-position: center center;
+	background-size: cover;
+}
+
+.p-box h1{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+
+.p-box h2{
+	position: absolute;
+	bottom: : 40px;
+	right: 100px;
+}
+
+.fix-me{
+	position: fixed;
+	top: 400px;
+}
+/* Pseudo class indicated by : */
+.my-list li:first-child{
+	background-color: red;
+}
+
+/*.my-list li:last-child{
+	background-color: blue;
+}*/
+
+.my-list li:nth-child(5){
+	background-color: yellow;
+}
+
+.my-list li:nth-child(even){
+	background-color: grey;
+}
+
+.my-list li:nth-child(11){
+	background-color: blue;
+}
+
+/* NOTES */
